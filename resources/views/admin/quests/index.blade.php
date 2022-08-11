@@ -28,7 +28,7 @@
                                     <div class="text-sm leading-5 text-gray-900"><text><b>Почта пользователя: </b></text>{{ $quest->email }}</div>
                                 </td>
                                 <td>
-                                <button type="button" class="btn btn-primary"><a href="{{ route("admin.quests.edit", $quest['id']) }}" class="text-decoration-none text-reset">Редактировать</a></button><br>
+                                <button type="button" class="btn btn-primary"><a href="{{ route("admin.quests.edit", $quest['id']) }}" class="text-decoration-none text-reset">Ответить</a></button><br>
                                 <button type="button" class="btn btn-info"><a href="{{ route("admin.quests.show", $quest['id']) }}" class="text-decoration-none text-reset">Подробнее</a></button>
                                 </td>
                             </tr>
